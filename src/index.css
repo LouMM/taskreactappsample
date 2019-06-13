@@ -1,0 +1,21 @@
+.pagecontainer{
+    display: flex; /* or inline-flex */
+    flex-direction: column;
+}
+
+.mapcontainer {
+  height: 400px;
+  width: 100%;  
+}
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+.cardcontainer {
+  display: flex; 
+  width:100%;
+  flex-wrap:wrap;
+  flex-grow: 1;
+  justify-content:space-evenly;
+}
